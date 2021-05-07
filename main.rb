@@ -9,6 +9,8 @@ end
 def calculate_color(is_dark_mode = true)
 	if is_dark_mode
 		'#111111'
+	else
+		'#E0E0E0'
 	end
 end
 

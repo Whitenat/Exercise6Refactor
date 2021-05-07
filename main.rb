@@ -1,5 +1,7 @@
-def calculate_foreground(foreground_color)
-	foreground_color - 10
+def calculate_foreground(foreground_color, is_dark_mode = true)
+	if is_dark_mode
+		foreground_color - 10
+	end
 end
 
 def draw_button(label_text, x, y, foreground_color, is_dark_mode)

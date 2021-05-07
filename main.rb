@@ -7,6 +7,9 @@ def calculate_foreground(foreground_color, is_dark_mode = true)
 end
 
 def calculate_color(is_dark_mode = true)
+	if is_dark_mode
+		'#111111'
+	end
 end
 
 
